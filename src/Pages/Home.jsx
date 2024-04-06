@@ -45,7 +45,7 @@ export default function Home() {
           {/* banner bottm part start*/}
           <div className='p-4 bg-bblue rounded-2xl md:flex md:gap-6 md:py-10 xl:pl-10 xl:pr-5'>
             <h2 className='font-inter font-800 text-2xl text-green mb-8 md:text-7xl xl:7xl '>
-              Android Developer
+              Android Engineer
             </h2>
             <p className='font-inter font-400 text-base text-black sm:text-xl md:text-2xl lg:text-3xl'>
               I create art that is both aesthetically pleasing and emotionally
