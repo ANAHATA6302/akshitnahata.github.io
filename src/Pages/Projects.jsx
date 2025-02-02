@@ -53,7 +53,7 @@ export default function Projects() {
         <div className='bg-[#000] py-10'>
           <div className='container max-w-1000 w-full mx-auto  px-4'>
             <div className='grid grid-cols-12 gap-5'>
-              <div className='col-span-12 md:col-span-12 sm:col-span-12 bg-lgreen rounded-2xl py-10 px-6'>
+              {/* <div className='col-span-12 md:col-span-12 sm:col-span-12 bg-lgreen rounded-2xl py-10 px-6'>
                 <div className='grid grid-cols-12 gap-4'>
                   <div className='col-span-12 md:col-span-6 sm:col-span-12'>
                     <div className='min-w-[200px]'>
@@ -75,6 +75,33 @@ export default function Projects() {
                     </p>
                   </div>
                 </div>
+              </div> */}
+              <div className='col-span-12  sm:col-span-12 md:col-span-6 bg-lgreen rounded-2xl py-10 px-6'>
+                <div className='min-w-[200px]'>
+                  <img src={projectIcon} alt='project icon' />
+                </div>
+                <h2 className='font-heading font-600 text-4xl md:text-[50px] md:font-400 pt-10'>
+                  LevelShoes
+                </h2>
+                <p className='font-product font-300 text-2xl'>
+                <br /> 
+                      "Level Shoes has blended the worlds of digital and
+                      physical to provide seamless experiences to consumers
+                      wherever and however they are engaging with the brand"
+                    </p>
+                    <p className='font-product font-300 text-2xl pt-10'>
+                      - Rania Masri, CTO Chalhoub Group.
+                    </p>
+              </div>
+              <div className='col-span-12  md:col-span-6 bg-yellow rounded-2xl py-10 px-6'>
+                <div className='min-w-[200px]'>
+                  <img src={projectIcon} alt='project icon' />
+                </div>
+                <h2 className='font-heading font-600 text-4xl md:text-[50px] md:font-400 pt-10'>
+                  PotterPedia
+                </h2>
+                <p className='font-product font-300 text-2xl pt-6'>
+                PotterPedia: An offline-first Android app (Jetpack Compose) displaying Harry Potter character info fetched from an API. Includes search, dark/light themes, and a scalable architecture for optimal performance.                </p>
               </div>
               <div className='col-span-12  sm:col-span-12 md:col-span-6 bg-yellow rounded-2xl py-10 px-6'>
                 <div className='min-w-[200px]'>
@@ -89,7 +116,7 @@ export default function Projects() {
                   unexpected ways.
                 </p>
               </div>
-              <div className='col-span-12  md:col-span-6 bg-dblue rounded-2xl py-10 px-6'>
+              <div className='col-span-12  md:col-span-6 bg-lgreen rounded-2xl py-10 px-6'>
                 <div className='min-w-[200px]'>
                   <img src={projectIcon} alt='project icon' />
                 </div>
