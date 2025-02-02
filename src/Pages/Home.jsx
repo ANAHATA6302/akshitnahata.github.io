@@ -7,6 +7,7 @@ import HomeFooter from "../Components/Shared/HomeFooter/HomeFooter";
 import PageTitle from "../Components/Shared/PageTitle/PageTitle";
 import bannerImg from "../assets/images/homeauthor.webp";
 import projectThree from "../assets/images/homeprojectlevel.png";
+import projectFour from "../assets/images/goldensnitch.png";
 import projectOne from "../assets/images/homeprojecttruth.png";
 import projectTwo from "../assets/images/homeprojectunexpectedly.png";
 
@@ -61,7 +62,39 @@ export default function Home() {
               Projects
             </h2>
             <div className='grid grid-cols-1  md:grid-cols-2 gap-7'>
-              <div className='bg-bpink rounded-[48px]  flex flex-col justify-center items-center'>
+            <div className='bg-bblue rounded-[48px]  flex flex-col justify-center items-center'>
+                <div className='flex flex-col justify-center items-center  p-10 '>
+                  <div className='min-w-[282px] max-w-[345px]'>
+                    <a href= "https://play.google.com/store/apps/details?id=com.levelshoes&pcampaignid=web_share" target="_blank">
+                    <img
+                      className='w-full'
+                      src={projectThree}
+                      alt='Level Shoes'
+                    />
+                    </a>
+                  </div>
+                  <h3 className='font-inter font-500 text-2xl mt-10 mb-4 sm:text-[40px] '>
+                    Level Shoes
+                  </h3>
+                </div>
+              </div>
+              <div className='bg-bred rounded-[48px]  flex flex-col justify-center items-center'>
+                <div className='flex flex-col justify-center items-center  p-10 '>
+                  <div className='min-w-[282px] max-w-[345px]'>
+                  <a href= "https://play.google.com/store/apps/details?id=com.akshit.potterpedia" target="_blank">
+                  <img
+                      className='w-full'
+                      src={projectFour}
+                      alt='Potter Pedia'
+                    />
+                  </a>
+                  </div>
+                  <h3 className='font-inter font-500 text-2xl mt-10 mb-4 sm:text-[40px] '>
+                    PotterPedia
+                  </h3>
+                </div>
+              </div>
+              <div className='bg-bred rounded-[48px]  flex flex-col justify-center items-center'>
                 <div className='flex flex-col justify-center items-center  p-10 '>
                   <div className='min-w-[282px]'>
                     <img
@@ -75,7 +108,7 @@ export default function Home() {
                   </h3>
                 </div>
               </div>
-              <div className='bg-bred rounded-[48px]  flex flex-col justify-center items-center'>
+              <div className='bg-bblue rounded-[48px]  flex flex-col justify-center items-center'>
                 <div className='flex flex-col justify-center items-center  p-10 '>
                   <div className='min-w-[282px]'>
                     <img
@@ -86,20 +119,6 @@ export default function Home() {
                   </div>
                   <h3 className='font-inter font-500 text-2xl mt-10 mb-4 sm:text-[40px] '>
                     Unexpectedly
-                  </h3>
-                </div>
-              </div>
-              <div className='bg-bblue rounded-[48px]  flex flex-col justify-center items-center'>
-                <div className='flex flex-col justify-center items-center  p-10 '>
-                  <div className='min-w-[282px] max-w-[345px]'>
-                    <img
-                      className='w-full'
-                      src={projectThree}
-                      alt='Level Shoes'
-                    />
-                  </div>
-                  <h3 className='font-inter font-500 text-2xl mt-10 mb-4 sm:text-[40px] '>
-                    Level Shoes
                   </h3>
                 </div>
               </div>
