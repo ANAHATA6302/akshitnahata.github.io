@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 import Footer from "../Components/Shared/Footer/Footer";
 import PageTitle from "../Components/Shared/PageTitle/PageTitle";
 import authorBig from "../assets/images/authorBig.webp";
+import authorImage from "../assets/images/authImage.png";
 
 /**
  * Contact component function
@@ -39,7 +40,7 @@ export default function Contact() {
           <div className='max-w-[1000px] h-[192px] w-full mt-[22px] '>
             <div className='flex justify-end'>
               <div className='max-w-[130px] lg:max-w-[343px] md:max-w-[250px] sm:max-w-[150px] xsm:max-w-[140px] rotate-[10deg] mt-[-92px] sm:mt-[-103px] xsm:mt-[-70px] md:mt-[-164px] translate-x-[-76px] pl-[7px] sm:pl-0 '>
-                <img className='w-full' src={authorBig} alt='' />
+                <img className='w-full' src={authorImage} alt='' />
               </div>
             </div>
             <h3 className='sm:tracking-[1.2px] mt-[-78px] md:mt-[-258px] sm:mt-[-133px] xsm:mt-[-135px]   font-product font-400 md:leading-[63.6px] sm:leading-10 xsm:leading-[1.3] uppercase  md:text-[42px]	 sm:text-3xl text-lg pl-1 text-[#FDA5B1] mix-blend-difference'>

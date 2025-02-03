@@ -5,7 +5,7 @@
  */
 import Footer from "../Components/Shared/Footer/Footer";
 import PageTitle from "../Components/Shared/PageTitle/PageTitle";
-import authorMid from "../assets/images/authorMid.webp";
+import authorImage from "../assets/images/authImage.png";
 import projectIcon from "../assets/images/projecticon1.png";
 
 /**
@@ -24,14 +24,14 @@ export default function Projects() {
           </h1>
           <div>
             <div className=' max-w-[60px] sm:max-w-[100px] md:max-w-[175px] lg:max-w-[232px] w-full rotate-[350deg] m-auto mt-[-30px] sm:mt-[-60px] md:mt-[-95px] lg:mt-[-138px]'>
-              <img className='w-full' src={authorMid} alt='' />
+              <img className='w-full' src={authorImage} alt='' />
             </div>
             <h1 className='mt-[-65px] sm:mt-[-100px] md:mt-[-170px] lg:mt-[-215px] text-6xl sm:text-9xl md:text-[220px]  text-center text-green font-bebas font-400	tracking-wide sm:tracking-[8px] md:tracking-[10px] lg:tracking-[38px] '>
               ENGINEER
             </h1>
             <p className='font-inter text-xs w-[222px]  m-auto sm:w-[467px]  md:w-[667px] lg:w-full pt-4  md:text-xl tracking-tighter'>
-              Nice to see you here! I am another
-              <br /> android engineer Based Manchester, UK.
+              Nice to see you here! I am an
+              <br /> Android Engineer Based in Manchester, UK.
             </p>
           </div>
           {/* Project Page Hero section end  */}

@@ -149,7 +149,7 @@ export default function Home() {
             </div>
             <div className='flex flex-col items-center sm:flex-row  border-b border-black mt-6'>
               <div className='w-full font-inter font-600 text-[28px] md:text-[36px] mb-8 sm:w-full md:w-1/2 '>
-                Contract Android Developer
+                Contract Android Engineer
               </div>
               <div className='w-full sm:w-full md:w-1/2 flex-grow mb-6'>
                 <div className='flex'>
@@ -165,7 +165,7 @@ export default function Home() {
 
             <div className='flex flex-col sm:flex-row mb-2 mt-6'>
               <div className=' font-inter font-600 text-[28px] md:text-[36px] mb-8 w-full md:w-1/2 '>
-                Android Developer
+                Android Engineer
               </div>
               <div className=' w-full md:w-1/2 flex-grow'>
                 <div className='flex '>
