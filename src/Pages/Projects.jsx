@@ -5,7 +5,7 @@
  */
 import Footer from "../Components/Shared/Footer/Footer";
 import PageTitle from "../Components/Shared/PageTitle/PageTitle";
-import authorImage from "../assets/images/authImage.png";
+import authorImage from "../assets/images/blazerAuthor.png";
 import projectIcon from "../assets/images/projecticon1.png";
 
 /**

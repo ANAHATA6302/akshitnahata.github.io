@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 import Footer from "../Components/Shared/Footer/Footer";
 import PageTitle from "../Components/Shared/PageTitle/PageTitle";
 import authorBig from "../assets/images/authorBig.webp";
-import authorImage from "../assets/images/authImage.png";
+import authorImage from "../assets/images/blazerAuthor.png";
 
 /**
  * Contact component function
